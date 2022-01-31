@@ -1,13 +1,14 @@
 import { expect } from "chai";
 import { describe, it } from "mocha";
 import supertest from "supertest";
-const request = supertest("https://pokeapi.co/api/v2/");
+const baseURL = "https://pokeapi.co/api/v2/";
+const endpoint = "pokemon?limit=30";
+const request = supertest(baseURL);
 const endpointList = [];
 const normalPokemonList = [];
 
 describe("Pokemon", () => {
   it("Get Normal Pokemon", () => {
-    const endpoint = "pokemon?limit=30";
     return request.get(endpoint).then((res) => {
       expect(res.body.results).to.not.be.empty;
       res.body.results.forEach((results) => {
