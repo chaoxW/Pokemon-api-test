@@ -1,8 +1,10 @@
 import { expect } from "chai";
 import { describe, it } from "mocha";
 import supertest from "supertest";
-const baseURL = "https://pokeapi.co/api/v2/";
-const endpoint = "pokemon?limit=30";
+import { url } from "../Data/url";
+// const { url } = require("../Data/url");
+const baseURL = url.baseURL;
+const endpoint = url.endpoint;
 const request = supertest(baseURL);
 const endpointList = [];
 const normalPokemonList = [];
