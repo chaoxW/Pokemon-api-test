@@ -2,7 +2,6 @@ import { expect } from "chai";
 import { describe, it } from "mocha";
 import supertest from "supertest";
 import { url } from "../Data/url";
-// const { url } = require("../Data/url");
 const baseURL = url.baseURL;
 const endpoint = url.endpoint;
 const request = supertest(baseURL);
