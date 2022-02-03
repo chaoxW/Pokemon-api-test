@@ -16,7 +16,6 @@ describe("Pokemon", () => {
         let newURL = results.url;
         let newEndpoint = newURL.split("v2/").pop();
         endpointList.push(newEndpoint);
-        // console.log(endpointList);
       });
       endpointList.forEach((endpointList) => {
         return request.get(endpointList).then((res) => {
