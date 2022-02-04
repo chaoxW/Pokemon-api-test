@@ -9,7 +9,7 @@
     ├── Data
     │   └── url
     │       └── baseUrl and endpoints
-    └── Jenkisfile - Jenkins pipeline definition
+    └── package.json - Configuration for scripts and dependencies
 
 
 
