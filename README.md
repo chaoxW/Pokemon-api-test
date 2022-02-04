@@ -1,4 +1,4 @@
-# Pokemon-api-test structure
+# Folder Structure
 
 
     Pokemon-api-test
@@ -11,7 +11,7 @@
     │       └── baseUrl and endpoints
     └── package.json - Configuration for scripts and dependencies
 
-
+# Run
 
 Run test with `nmp test`
 you will get the test result
