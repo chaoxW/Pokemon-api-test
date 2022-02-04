@@ -1,4 +1,16 @@
-# Pokemon-api-test
+# Pokemon-api-test structure
+
+
+    Pokemon-api-test
+    ├── Test
+    │   └── Test written in js
+    └── Data
+        └── url
+            └── baseUrl and endpoints
+
+
+
+
 Run test with `nmp test`
 you will get the test result
 
