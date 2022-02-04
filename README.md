@@ -3,11 +3,13 @@
 
     Pokemon-api-test
     ├── Test
-    │   └── Test written in js
-    └── Data
-        └── url
-            └── baseUrl and endpoints
-
+    │   └── pokemon.js
+    │       └── baseUrl and endpoints
+    │       
+    ├── Data
+    │   └── url
+    │       └── baseUrl and endpoints
+    └── Jenkisfile - Jenkins pipeline definition
 
 
 
